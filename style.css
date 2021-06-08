@@ -83,11 +83,12 @@ p {
 .menu{
     list-style: none;
     font-family: monospace;
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 30px;
     z-index: 10;
     cursor: pointer;
+    margin-top: 0px;
 }
 
 .links{
@@ -95,17 +96,45 @@ p {
     color: royalblue;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-right: 9px;
-    padding-left: 9px;
+    padding-right: 25px;
+    padding-left: 33pxpx;
     font-family: serif;
     font-size: 20px;
+    display: inline;
 }
 
 .links: hover{
     background-color: chocolate;
     font-family: Abril Fatface;
+    font-size: 25px;
+    text-decoration: underline;
 }
 
 html{
     scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: saddlebrown;
+    text-shadow: 2px 2px gainsboro
+}
+
+#writing a{
+    text-shadow: none ! important;
+    text-decoration: underline ! important;
+    color: springgreen ! important
+}
+
+#contact{
+    background: firebrick;
+}
+
+.contact_1 a{
+    color: white;
+    text-shadow: none;
+}
+
+.contact_1 h3{
+    
 }
